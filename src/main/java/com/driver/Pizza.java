@@ -31,7 +31,7 @@ public class Pizza {
             this.price = 400;
             ExtraToppings =120;
         }
-        bill ="BasePriceOfThePizza: " + this.price + "\n";
+        bill ="Base Price Of The Pizza: " + this.price + "/n";
         // your code goes here
     }
 
@@ -79,5 +79,6 @@ public class Pizza {
             this.bill+="Total Price " + this.price+"\n";
         }
         return this.bill;
+        // final ad
     }
 }
