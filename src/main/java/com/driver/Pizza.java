@@ -68,15 +68,15 @@ public class Pizza {
         if(isBillGenerated == false){
             isBillGenerated = true;
             if(isExtraCheese == true){
-                this.bill += "ExtraCheeseAdded: " +this.ExtraCheese+"\n";
+                this.bill += "Extra Cheese Added: " +this.ExtraCheese+"\n";
             }
             if(isExtraToppings ){
-                this.bill += "ExtraToppingsAdded: " +this.ExtraToppings+"\n";
+                this.bill += "Extra Toppings Added: " +this.ExtraToppings+"\n";
             }
             if(isExtrapaperBag){
-                this.bill += "PaperBagAdded: " +this.paperBag+"\n";
+                this.bill += "Paper bag Added: " +this.paperBag+"\n";
             }
-            this.bill+="TotalPrice " + this.price + "\n";
+            this.bill+="Total Price " + this.price+"\n";
         }
         return this.bill;
     }
